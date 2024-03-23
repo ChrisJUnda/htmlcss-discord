@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, sans-serif;
+}
+
 header{
-    background-color: lightblue;
+    background-color: #404eed;
     padding: 10px 0;
 }
 
@@ -44,10 +48,7 @@ footer{
     background-color: green;
 }
 .col-25{
-    width: 25%;
-    border: 1px solid black;
-    background-color: orange;
-    
+    width: 25%;  
 }
 
 .col-34{
@@ -64,8 +65,6 @@ footer{
 }
 .col-50{
     width: 50%;
-    border: 1px solid black;
-    background-color: orange;
 }
 
 .col-60{
@@ -83,6 +82,8 @@ footer{
 }
 
 /*Fine Classi di Layout*/
+
+/*Classi di utility*/
 
 .bg-lightblue{
     background-color: lightblue;
@@ -117,11 +118,13 @@ footer{
 
 .unstyled-list li{
     display: inline-block;
+    padding: 0px 15px;
 }
 
 .unstyled-list li a {
-    color: black;
+    color: white;
     text-decoration: none;
+    font-weight: 800;
 }
 
 .py-10{
@@ -160,3 +163,16 @@ footer{
     background-color: pink;
     padding: 20px;
 }
+/*Fine classi di utility*/
+
+.btn{
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-white{
+    background-color: white;
+}
+
