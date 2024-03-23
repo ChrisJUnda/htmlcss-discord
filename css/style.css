@@ -59,7 +59,6 @@ footer{
 }
 .col-40{
     width: 40%;
-    height: 400px;
 }
 .col-50{
     width: 50%;
@@ -68,7 +67,6 @@ footer{
 .col-60{
     width: 60%;
 
-    height: 400px;
 }
 
 .col-100{
@@ -200,6 +198,10 @@ footer{
     
 }
 
+.item2{
+    width: 60%;
+    
+}
 .discord{
     font-size: 50px;
 }
